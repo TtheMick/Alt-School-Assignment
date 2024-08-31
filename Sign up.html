@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form-styles.css">
+    <title>Sign Up - Alt School</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Biography</a></li>
+            <li><a href="Sign up.html">Sign Up</a></li>
+            <li><a href="Altschool Courses.html">Altschool Courses</a></li>
+            <li><a href="media.html">media</a></li>
+            
+            
+        </ul>
+    </nav>
+    <div class="signup-container">
+        <header>
+            <img src="alt-school-logo.png" alt="Alt School Logo" class="logo"> 
+            <a href="#" class="signin-link">Already an AltSchooler? Sign In!</a>
+        </header>
+        <h1>Signup</h1>
+        <p>Take the next steps to apply at AltSchool Africa</p>
+        <form>
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first-name" placeholder="Enter first name">
+            
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last-name" placeholder="Enter last name">
+            
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender">
+                <option value="">Select gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+        
+            </select>
+            
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob">
+            
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Enter email address">
+            
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter phone number">
+            
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="">Select your country</option>
+                <option value="">Nigeria</option>
+    
+            </select>
+            
+            <label for="state-city">State/City of Residence</label>
+            <input type="text" id="state-city" name="state-city" placeholder="Enter your state of residence">
+            
+            <label for="referral">How did you hear about us?</label>
+            <select id="referral" name="referral">
+                <option value="">Select channel</option>
+                
+            </select>
+            
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter password">
+            
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="Enter password again">
+            
+            <button type="submit">Submit</button>
+        </form>
+        <p class="terms">By clicking continue, I agree to <a href="#">Terms of Use</a> and acknowledge that I have read the <a href="#">Privacy Policy</a>.</p>
+    </div>
+</body>
+</html>
